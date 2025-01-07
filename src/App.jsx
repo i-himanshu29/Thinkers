@@ -1,12 +1,16 @@
 
 import './App.css'
 
+import { GridBackgroundDemo } from './components/GridBackground'
+import {FloatingNavDemo} from "./components/Navbar"
+
 function App() {
   
 
   return (
     <div>
-      <h1 className="text-6xl font-extrabold">Hello Thinkers</h1>
+      <FloatingNavDemo/>
+      <GridBackgroundDemo/>
     </div>
   )
 }
