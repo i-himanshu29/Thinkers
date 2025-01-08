@@ -6,6 +6,7 @@ import {CardHoverEffectDemo} from "./components/Services"
 import { GridBackgroundDemo } from './components/GridBackground'
 import {FloatingNavDemo} from "./components/Navbar"
 import { TimelineDemo } from './components/Features'
+import MissionAndVision from './components/MissionAndVision'
 
 function App() {
   
@@ -17,6 +18,7 @@ function App() {
       <About/>
       <CardHoverEffectDemo/>
       <TimelineDemo/>
+      <MissionAndVision/>
       <Footer/>
     </div>
   )
